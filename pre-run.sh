@@ -29,3 +29,9 @@ do
 done
 
 popd
+
+alias mambai='mamba install -p ~/.conda '
+alias pipi='pip install --user '
+
+export PATH=~/.local/bin:~/.conda/bin/:$PATH
+export PYTHONPATH=/root/.local/lib/python3.10/site-packages/:$PYTHONPATH
